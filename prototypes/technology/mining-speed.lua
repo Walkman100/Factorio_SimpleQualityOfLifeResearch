@@ -3,7 +3,7 @@ if settings.startup["mining-speed-upgrade"].value then
         {
             type = "technology",
             name = "steel-axe",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
             effects = {
                 {
@@ -25,7 +25,7 @@ if settings.startup["mining-speed-upgrade"].value then
         {
             type = "technology",
             name = "steel-axe-2",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
             effects = {
                 {
@@ -49,7 +49,7 @@ if settings.startup["mining-speed-upgrade"].value then
         {
             type = "technology",
             name = "steel-axe-3",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
             effects = {
                 {
@@ -74,7 +74,7 @@ if settings.startup["mining-speed-upgrade"].value then
         {
             type = "technology",
             name = "steel-axe-4",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
             effects = {
                 {

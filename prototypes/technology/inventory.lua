@@ -3,7 +3,7 @@ if settings.startup["inventory-upgrades"].value then
         {
             type = "technology",
             name = "toolbelt",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
             prerequisites = {"logistic-science-pack"},
             effects = {
@@ -26,7 +26,7 @@ if settings.startup["inventory-upgrades"].value then
         {
             type = "technology",
             name = "toolbelt-2",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
             prerequisites = {"toolbelt"},
             effects = {
@@ -50,7 +50,7 @@ if settings.startup["inventory-upgrades"].value then
         {
             type = "technology",
             name = "toolbelt-3",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
             prerequisites = {"toolbelt-2"},
             effects = {
@@ -75,7 +75,7 @@ if settings.startup["inventory-upgrades"].value then
         {
             type = "technology",
             name = "toolbelt-4",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
             prerequisites = {"toolbelt-3"},
             effects = {
