@@ -1,0 +1,30 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+  Balance:
+    - Updated to 0.18
+    - Removed Logistic Slot Research as it's no longer needed
+    - Now uses default pickaxe artwork
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+  Balance:
+    - Adjusted science costs to be similar to vanilla researches
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+  Features:
+    - Added settings to disable researches
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+  Features:
+    - Added proper changelog
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+  Features:
+    - Cleaned up some researches
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+  Balance:
+    - Adjusted logistic slot costs
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Features:
+    - Initial Release

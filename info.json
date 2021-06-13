@@ -1,0 +1,9 @@
+{
+	"name":"SimpleQualityofLifeResearch",
+	"version":"1.0.6",
+	"title":"Simple Quality of Life Research",
+	"author":"Timmeri",
+	"description":"Simple quality of life researches without being bloaty or cheaty by providing additional inventory and steel axe researches.",
+	"factorio_version": "0.18",
+	"dependencies": ["base >= 0.18.0"]
+}
