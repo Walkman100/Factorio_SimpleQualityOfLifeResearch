@@ -12,5 +12,12 @@ data:extend({
         order = "ac",
         setting_type = "startup",
         default_value = true
+    },
+    {
+        type = "bool-setting",
+        name = "player-reach-upgrade",
+        order = "ad",
+        setting_type = "startup",
+        default_value = true
     }
 })
