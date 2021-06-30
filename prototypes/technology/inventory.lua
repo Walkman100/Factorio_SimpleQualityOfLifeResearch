@@ -5,7 +5,9 @@ if settings.startup["inventory-upgrades"].value then
             name = "toolbelt",
             icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
-            prerequisites = {"logistic-science-pack"},
+            prerequisites = {
+                "logistic-science-pack"
+            },
             effects = {
                 {
                     type = "character-inventory-slots-bonus",
@@ -28,7 +30,10 @@ if settings.startup["inventory-upgrades"].value then
             name = "toolbelt-2",
             icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
-            prerequisites = {"toolbelt"},
+            prerequisites = {
+                "chemical-science-pack",
+                "toolbelt"
+            },
             effects = {
                 {
                     type = "character-inventory-slots-bonus",
@@ -52,7 +57,10 @@ if settings.startup["inventory-upgrades"].value then
             name = "toolbelt-3",
             icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
-            prerequisites = {"toolbelt-2"},
+            prerequisites = {
+                "production-science-pack",
+                "toolbelt-2"
+            },
             effects = {
                 {
                     type = "character-inventory-slots-bonus",
@@ -77,7 +85,10 @@ if settings.startup["inventory-upgrades"].value then
             name = "toolbelt-4",
             icon_size = 256,
             icon = "__base__/graphics/technology/toolbelt.png",
-            prerequisites = {"toolbelt-3"},
+            prerequisites = {
+                "utility-science-pack",
+                "toolbelt-3"
+            },
             effects = {
                 {
                     type = "character-inventory-slots-bonus",

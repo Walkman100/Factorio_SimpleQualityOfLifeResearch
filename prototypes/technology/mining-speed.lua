@@ -5,7 +5,9 @@ if settings.startup["mining-speed-upgrade"].value then
             name = "steel-axe",
             icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
-            prerequisites = {"steel-processing"},
+            prerequisites = {
+                "steel-processing"
+            },
             effects = {
                 {
                     type = "character-mining-speed",
@@ -27,7 +29,10 @@ if settings.startup["mining-speed-upgrade"].value then
             name = "steel-axe-2",
             icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
-            prerequisites = {"steel-axe"},
+            prerequisites = {
+                "chemical-science-pack",
+                "steel-axe"
+            },
             effects = {
                 {
                     type = "character-mining-speed",
@@ -51,7 +56,10 @@ if settings.startup["mining-speed-upgrade"].value then
             name = "steel-axe-3",
             icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
-            prerequisites = {"steel-axe-2"},
+            prerequisites = {
+                "production-science-pack",
+                "steel-axe-2"
+            },
             effects = {
                 {
                     type = "character-mining-speed",
@@ -76,7 +84,10 @@ if settings.startup["mining-speed-upgrade"].value then
             name = "steel-axe-4",
             icon_size = 256,
             icon = "__base__/graphics/technology/steel-axe.png",
-            prerequisites = {"steel-axe-3"},
+            prerequisites = {
+                "utility-science-pack",
+                "steel-axe-3"
+            },
             effects = {
                 {
                     type = "character-mining-speed",
