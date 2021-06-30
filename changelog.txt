@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+  Features:
+    - Added player reach distance research & setting
+---------------------------------------------------------------------------------------------------
 Version: 1.0.8
   Changes:
     - Added science pack researches as prerequisites to QOL researches
